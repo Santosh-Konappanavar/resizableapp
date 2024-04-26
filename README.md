@@ -1,70 +1,155 @@
-# Getting Started with Create React App
+<div align="center">
+  <br/>
+  <h1><b> ResizableApp 🛠️</b></h1>
+  <h4>
+Built with React, The above app allows users to resize container components dynamically, with adjacent containers adjusting their dimensions accordingly in response to resizing operations.
+<a name="readme-top"></a>
+</h4>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</div>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+- [:notebook: API Documentation](#api-docs)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+
+**Resizable App**
+
+## 🛠 Built With <a name="built-with"></a>
+
+This app is built with Rearct.js and CSS
+
+### Tech Stack <a name="tech-stack"></a>
+
+<li><a href="https://reactjs.org/">React.js</a></li>
+
+<!-- Features -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://resizableapp.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+## To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Mac or PC
+- Install react.js
+- Install npm
+
+### Setup
+
+- Clone this repository to your desired folder:
+
+```sh
+   git clone https://github.com/Santosh-Konappanavar/resizableapp.git
+```
+
+- Navigate into the cloned folder
+
+```sh
+
+cd resizableapp
+
+npm init -y
+
+```
+
+
+### Install
+
+Install this project with the following:
+
+- Start the server
+
+```sh
+
+npm start
+
+http://localhost:3000
+```
+
+
+### Usage
+
+Kindly modify the files as needed.
 
 In the project directory, you can run:
 
-### `npm start`
+```
+$ npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
+
 You may also see any lint errors in the console.
 
-### `npm test`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<!-- AUTHORS -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👥 Authors <a name="authors"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👤 **Santosh Konappanavar**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- GitHub: [@Santosh-Konappanavar](https://github.com/Santosh-Konappanavar/Portfolio-mobile-setup)
+- LinkedIn: [@Santosh Konappanavar](https://www.linkedin.com/in/santosh-konappanavar/)
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- CONTRIBUTING -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing <a name="contributing"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions, issues, and feature requests are welcome!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to check the [issues page](https://github.com/Santosh-Konappanavar/resizableapp/issues).
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- SUPPORT -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⭐️ Show your support <a name="support"></a>
 
-### Code Splitting
+If you like this project, please give a ⭐️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+<!-- ACKNOWLEDGEMENTS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- LICENSE -->
 
-### Making a Progressive Web App
+## 📝 License <a name="license"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is [MIT](https://github.com/Santosh-Konappanavar/resizableapp/blob/main/LICENSE) licensed.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
