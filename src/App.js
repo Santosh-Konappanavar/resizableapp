@@ -125,6 +125,9 @@ function ResizableContainer() {
       <div className="resizer resizer-t" ref={refTop}></div>
       <div className="resizer resizer-r" ref={refRight}></div>
       <div className="resizer resizer-b" ref={refBottom}></div>
+      <div className="content-wrapper">
+        <div className="content">Centered Content</div>
+      </div>
     </div>
   );
 }
