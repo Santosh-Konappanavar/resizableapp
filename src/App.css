@@ -1,0 +1,46 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.resizeable {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  resize: both;
+  overflow: hidden;
+}
+
+.resizer {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.resizer-l {
+  left: -5px;
+  top: 50%;
+  cursor: ew-resize; /* Horizontal resize cursor */
+}
+
+.resizer-r {
+  right: -5px;
+  top: 50%;
+  cursor: ew-resize; /* Horizontal resize cursor */
+}
+
+.resizer-t {
+  top: -5px;
+  left: 50%;
+  cursor: ns-resize; /* Vertical resize cursor */
+}
+
+.resizer-b {
+  bottom: -5px;
+  left: 50%;
+  cursor: ns-resize; /* Vertical resize cursor */
+}
